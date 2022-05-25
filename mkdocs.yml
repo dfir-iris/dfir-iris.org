@@ -48,7 +48,7 @@ extra:
       link: https://discord.gg/76tM6QUJza
 
 repo_url: https://github.com/dfir-iris/iris-web
-site_url: https://dfir-iris.github.io
+site_url: https://dfir-iris.org
 site_description: "DFIR-IRIS Documentation - An incident response collaborative platform"
 site_author: "DFIR-IRIS Team"
 
