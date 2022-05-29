@@ -47,35 +47,53 @@
               />
             </a>
           </div>
-        </div>
-          <div class="flex px-4 justify-between items-center w-full">
+          <div class="flex w-full items-center justify-between px-4">
             <div>
               <button
                 id="navbarToggler"
-                class="
-                  block
-                  absolute
-                  right-4
-                  top-1/2
-                  -translate-y-1/2
-                  lg:hidden
-                  focus:ring-2
-                  ring-primary
-                  px-3
-                  py-[6px]
-                  rounded-lg
-                "
+                class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
               >
                 <span
-                  class="relative w-[30px] h-[2px] my-[6px] block bg-white"
+                  class="relative my-[6px] block h-[2px] w-[30px] bg-white"
                 ></span>
                 <span
-                  class="relative w-[30px] h-[2px] my-[6px] block bg-white"
+                  class="relative my-[6px] block h-[2px] w-[30px] bg-white"
                 ></span>
                 <span
-                  class="relative w-[30px] h-[2px] my-[6px] block bg-white"
+                  class="relative my-[6px] block h-[2px] w-[30px] bg-white"
                 ></span>
               </button>
+              <nav
+                id="navbarCollapse"
+                class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6"
+              >
+                <ul class="blcok lg:flex">
+                  <li class="group relative">
+                    <a
+                      href="https://docs.dfir-iris.org"
+                      class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
+                    >
+                      Documentation
+                    </a>
+                  </li>
+                  <li class="group relative">
+                    <a
+                      href="https://blog.dfir-iris.org"
+                      class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li class="group relative">
+                    <a
+                      href="https://docs.dfir-iris.org/contact/"
+                      class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
@@ -131,53 +149,7 @@
                 Created by incident responders for incident responders
               </p>
               <ul class="flex flex-wrap items-center justify-center mb-10">
-                <li>
-                  <a
-                    href="https://docs.dfir-iris.org"
-                    class="
-                      py-4
-                      px-6
-                      sm:px-10
-                      inline-flex
-                      items-center
-                      justify-center
-                      text-center text-dark text-base
-                      bg-white
-                      hover:text-primary hover:shadow-lg
-                      font-medium
-                      rounded-lg
-                      transition
-                      duration-300
-                      ease-in-out
-                    "
-                  >
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://blog.dfir-iris.org"
-                    class="
-                    py-4
-                    px-10
-                    ml-4
-                    lg:px-8
-                    xl:px-10
-                    inline-flex
-                    items-center
-                    justify-center
-                    text-center text-white text-base
-                    border border-black
-                    rounded-md
-                    hover:bg-black hover:border-black hover:text-white
-                    duration-300
-                    ease-in-out
-                    "
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li>
+                <li class="mb-4">
                   <a
                     href="https://docs.dfir-iris.org/getting_started/"
                     class="
@@ -192,15 +164,15 @@
                     text-center text-white text-base
                     border border-black
                     rounded-md
-                    hover:bg-black hover:border-black hover:text-white
+                    hover:bg-white hover:border-black hover:text-white
                     duration-300
                     ease-in-out
                     "
                   >
-                    Try it
+                    Download
                   </a>
                 </li>
-                <li>
+                <li class="mb-4">
                   <a
                     href="https://github.com/dfir-iris/iris-web"
                     target="_blank"
@@ -2069,7 +2041,7 @@ You can head to the Github of the project and create an issue with the idea.
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  Absolutely. You can either <a class="text-primary" href="mailto:contact@dfir-iris.org" >contact us</a> directly or submit pull requests and ideas on the GitHub. We also have a <a class="text-primary" href="https://discord.gg/fwuXkpBHGz">discord</a> if need any help. 
+                  Absolutely. You can either <a class="text-primary" href="mailto:contact@dfir-iris.org" >contact us</a> directly or submit pull requests and ideas on the GitHub. We also have a <a class="text-primary" href="https://discord.gg/fwuXkpBHGz">discord</a> if you need any help. 
                 </p>
               </div>
             </div>
