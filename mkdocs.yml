@@ -1,4 +1,4 @@
-site_name: Documentation
+site_name: DFIR-IRIS
 theme:
   name: material
   logo: _static/logo-white.png
@@ -49,13 +49,13 @@ extra:
 
 repo_url: https://github.com/dfir-iris/iris-web
 site_url: https://dfir-iris.org
-site_description: "DFIR-IRIS Documentation - An incident response collaborative platform"
+site_description: "DFIR-IRIS Documentation - A collaborative incident response platform"
 site_author: "DFIR-IRIS Team"
 
 repo_name: DFIR-IRIS Web
 edit_uri: ""
 
-copyright: Copyright &copy; 2021-2022 - DFIR-IRIS Team
+copyright: Copyright &copy; 2021-2023 - DFIR-IRIS Team
 
 plugins:
   - git-revision-date
